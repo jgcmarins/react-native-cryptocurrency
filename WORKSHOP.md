@@ -72,4 +72,4 @@ $ npm start
 Agora vamos abrir o **Expo App** (no celular) e usá-lo para fazer a leitura do QR code que apareceu no terminal.
 Pronto, o nosso mais novo **app incrível** já está rodando.
 ## Dúvidas
-Em caso de dúvidas ou problemas para fazer o setup, por favor, abrir uma issue [aqui](https://github.com/jgcmarins/react-native-cryptocurrency/issues) que responderei assim que possível. Tambmém estou sempre online no [Slack do React Brasil](http://react-brasil-slack.herokuapp.com/). Muito obrigado.
+Em caso de dúvidas ou problemas para fazer o setup, por favor, abrir uma issue [aqui](https://github.com/jgcmarins/react-native-cryptocurrency/issues) que responderei assim que possível. Tambmém estou sempre online no [Slack do React Brasil](http://react-brasil-slack.herokuapp.com/). Valeu!
