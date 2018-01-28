@@ -57,9 +57,9 @@ $ create-react-native-app --version
 ```
 Deverá aparecer a seguinte mensagem: `create-react-native-app version: 1.0.0`.
 ## Expo
-O próximo passo é instalar o **Expo** no celular: [Expo client](https://expo.io/tools#client)
+O próximo passo é instalar o **Expo** no celular: [Expo client download](https://expo.io/tools#client).
 ## Rodando
-Para iniciar um novo projeto é bem simples. Basta rodar os seguintes comando no terminal:
+Para iniciar um novo projeto é bem simples. Basta rodar o seguinte comando no terminal:
 ```shell
 $ create-react-native-app meu-app-incrivel
 ```
@@ -70,6 +70,6 @@ $ cd meu-app-incrivel
 $ npm start
 ```
 Agora vamos abrir o **Expo App** (no celular) e usá-lo para fazer a leitura do QR code que apareceu no terminal.
-Pronto, o nosso mais novo app já está rodando.
+Pronto, o nosso mais novo **app incrível** já está rodando.
 ## Dúvidas
-Em caso de dúvidas ou problemas para fazer o setup, por favor, abrir uma issue [aqui](https://github.com/jgcmarins/react-native-cryptocurrency/issues) que responderei assim que possível. Muito obrigado.
+Em caso de dúvidas ou problemas para fazer o setup, por favor, abrir uma issue [aqui](https://github.com/jgcmarins/react-native-cryptocurrency/issues) que responderei assim que possível. Tambmém estou sempre online no [Slack do React Brasil](http://react-brasil-slack.herokuapp.com/). Muito obrigado.
