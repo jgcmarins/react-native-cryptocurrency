@@ -4,19 +4,20 @@
 Tutorial passo a passo para configurar um ambiente de desenvolvimento de apps em React Native.
 
 ## Índice
-- [Introdução](#introducao)
+- [Introdução](#introdução)
 - [Node](#node)
 - [NPM](#npm)
   - [Yarn](#yarn)
 - [React Native](#react-native)
 - [Create React Native App (CRNA)](#create-react-native-app-crna)
 - [Rodando](#rodando)
-- [Dúvidas](#duvidas)
+- [Dúvidas](#dúvidas)
 
 ## Introdução
 Este tutorial tem como objetivo ensinar como configurar um ambiente de desenvolvimento de apps em React Native.
 A documentação oficial para tal, encontra-se em [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html).
 ## Node
+O primeiro requisito é possuir [Node](https://nodejs.org) instalado. Você pode fazer o download do Node [aqui](https://nodejs.org/en/download/).
 ## NPM
 ### Yarn
 ## React Native
