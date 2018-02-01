@@ -8,7 +8,7 @@ import SampleText from './common/SampleText';
 import AllCoinsList from './lists/AllCoinsList';
 
 const MyNavScreen = ({ navigation, banner }) => (
-  <ScrollView>
+  <ScrollView style={{ backgroundColor: '#fff' }}>
     <SampleText>{banner}</SampleText>
     <SafeAreaView forceInset={{ horizontal: 'always' }}>
       {/*<Button*/}
@@ -23,7 +23,7 @@ const MyNavScreen = ({ navigation, banner }) => (
 );
 
 const MyHomeScreen = ({ navigation }) => (
-  <MyNavScreen banner="Home Screen" navigation={navigation} />
+  <MyNavScreen banner="Cryptocurrency List" navigation={navigation} />
 );
 
 const MyProfileScreen = ({ navigation }) => (
@@ -34,7 +34,7 @@ const MyProfileScreen = ({ navigation }) => (
 );
 
 const MySettingsScreen = ({ navigation }) => (
-  <MyNavScreen banner="Settings Screen" navigation={navigation} />
+  <MyNavScreen banner="Favorites Cryptocurrency" navigation={navigation} />
 );
 
 const MainTab = StackNavigator({
@@ -42,7 +42,7 @@ const MainTab = StackNavigator({
     screen: MyHomeScreen,
     path: '/',
     navigationOptions: {
-      title: 'Welcome',
+      title: 'React Native Cryptocurrency',
     },
   },
   Profile: {
@@ -59,7 +59,7 @@ const SettingsTab = StackNavigator({
     screen: MySettingsScreen,
     path: '/',
     navigationOptions: () => ({
-      title: 'Settings',
+      title: 'Favorites Cryptocurrency',
     }),
   },
 });
@@ -70,14 +70,14 @@ const StacksInTabs = TabNavigator(
       screen: MainTab,
       path: '/',
       navigationOptions: {
-        tabBarLabel: 'Home',
+        tabBarLabel: 'Cryptocurrency',
       },
     },
     SettingsTab: {
       screen: SettingsTab,
       path: '/settings',
       navigationOptions: {
-        tabBarLabel: 'Settings',
+        tabBarLabel: 'Favorites',
       },
     },
   },
@@ -85,6 +85,12 @@ const StacksInTabs = TabNavigator(
     tabBarPosition: 'bottom',
     animationEnabled: false,
     swipeEnabled: false,
+    tabBarOptions: {
+      activeTintColor: '#000',
+      style: {
+        backgroundColor: 'orangered',
+      },
+    },
   }
 );
 
