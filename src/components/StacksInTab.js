@@ -5,15 +5,17 @@ import { Button, ScrollView, StatusBar } from 'react-native';
 import { SafeAreaView, StackNavigator, TabNavigator } from 'react-navigation';
 
 import SampleText from './common/SampleText';
+import AllCoinsList from './lists/AllCoinsList';
 
 const MyNavScreen = ({ navigation, banner }) => (
   <ScrollView>
     <SampleText>{banner}</SampleText>
     <SafeAreaView forceInset={{ horizontal: 'always' }}>
-      <Button
-        onPress={() => navigation.navigate('Profile', { name: 'Jordan' })}
-        title="Open profile screen"
-      />
+      {/*<Button*/}
+        {/*onPress={() => navigation.navigate('Profile', { name: 'Jordan' })}*/}
+        {/*title="Open profile screen"*/}
+      {/*/>*/}
+      <AllCoinsList/>
     </SafeAreaView>
 
     <StatusBar barStyle="default" />
