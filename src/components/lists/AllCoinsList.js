@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import { FlatList } from 'react-native';
+import { FlatList, View } from 'react-native';
 
 import CoinRow from '../coin/CoinRow';
 import Loading from '../common/Loading';
@@ -23,9 +23,9 @@ class AllCoinsList extends Component {
     try {
       const response = await fetch(url);
       const coins = await response.json();
-      this.setState({ coins: coins });
+      this.setState({ isFetching: false, coins: coins });
     } catch(error) {
-      this.setState({isFetching: false, errorMessage: error});
+      this.setState({ isFetching: false, errorMessage: error});
       console.log('error: ', error);
     }
   };
