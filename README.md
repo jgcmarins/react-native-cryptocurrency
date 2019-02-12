@@ -4,13 +4,17 @@ Slides + React Native app
 
 ## Timeline
 
-[12/02/2019 @ Estação Hack](https://www.meetup.com/pt-BR/Nerdzao/events/258728097/)
+#### 2019
 
-[10/11/2018 @ Roadsec](https://twitter.com/jgcmarins/status/1062489191781711872)
+[Feb 12 @ Estação Hack](https://www.meetup.com/pt-BR/Nerdzao/events/258728097/)
 
-[24/02/2018 @ Accenture](https://www.meetup.com/pt-BR/Frontend-Dev-SP-Meetup/events/247970854/)
+#### 2018
 
-[01/02/2018 @ ThoughtWorks Brazil](https://www.meetup.com/pt-BR/Frontend-Dev-SP-Meetup/events/246295953/)
+[Nov 10 @ Roadsec](https://twitter.com/jgcmarins/status/1062489191781711872)
+
+[Feb 24 @ Accenture](https://www.meetup.com/pt-BR/Frontend-Dev-SP-Meetup/events/247970854/)
+
+[Feb 01 @ ThoughtWorks Brazil](https://www.meetup.com/pt-BR/Frontend-Dev-SP-Meetup/events/246295953/)
 
 ## [Branches](https://github.com/jgcmarins/react-native-cryptocurrency/branches)
 
