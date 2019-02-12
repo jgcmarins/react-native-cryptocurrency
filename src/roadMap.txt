@@ -1,0 +1,5 @@
+Development Path
+Setup
+The App.js
+Splash Screen
+Hands on!

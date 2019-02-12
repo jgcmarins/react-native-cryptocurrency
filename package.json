@@ -11,7 +11,7 @@
     "lint:staged": "lint-staged",
     "pdf": "mdx-deck pdf src/deck.mdx",
     "prettier": "prettier --write --single-quote true --trailing-comma all --print-width 100",
-    "publish:deck": "yarn build && yarn copy:static && gh-pages -d dist",
+    "publish:deck": "yarn build --no-html src/deck.mdx && yarn copy:static && gh-pages -d dist",
     "start": "mdx-deck src/deck.mdx"
   },
   "repository": {

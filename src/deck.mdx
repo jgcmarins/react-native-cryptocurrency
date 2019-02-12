@@ -4,6 +4,7 @@ import { CodeSurfer } from "mdx-deck-code-surfer";
 
 import { Cover } from './Cover';
 import { Intro } from './Intro';
+import { HandsOn } from './HandsOn';
 
 export { default as theme } from './theme'
 
@@ -16,6 +17,24 @@ export { default as theme } from './theme'
 ---
 
 <Intro />
+
+---
+<div style={{fontSize: 28}}>
+<CodeSurfer
+  title="Road Map"
+  code={require('!raw-loader!./roadMap.txt')}
+  showNumbers={false}
+  dark={true}
+  lang="txt"
+  steps={[
+    { range: [1, 1] },
+    { range: [2, 2] },
+    { range: [3, 3] },
+    { range: [4, 4] },
+    { range: [5, 5] },
+  ]}
+/>
+</div>
 
 ---
 <div style={{fontSize: 28}}>
@@ -69,3 +88,7 @@ export { default as theme } from './theme'
   ]}
 />
 </div>
+
+---
+
+<HandsOn />
