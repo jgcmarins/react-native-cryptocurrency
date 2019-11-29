@@ -45,7 +45,7 @@ export const Center = styled.div`
 
 const EntriaLogo = styled.img`
   max-width: 600px;
-  margin-top: 100px;
+  margin-top: 50px;
 `;
 
 
