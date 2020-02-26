@@ -1158,10 +1158,10 @@
   dependencies:
     "@hapi/hoek" "8.x.x"
 
-"@mdx-deck/gatsby-plugin@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@mdx-deck/gatsby-plugin/-/gatsby-plugin-4.0.0.tgz#990d349192355d262410bdb4f01f71239f220548"
-  integrity sha512-8M+QbZLrLf6oz0IuJC0Rzk/MEA2h+WNe2+dcFCQa5N11ZT3vhaDCl69JcvU++WBJxDELSNF2Lz2Vp8GJ+MivzQ==
+"@mdx-deck/gatsby-plugin@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@mdx-deck/gatsby-plugin/-/gatsby-plugin-4.1.0.tgz#f90b1f121e2942bf68d3b5f123d40dd1408111da"
+  integrity sha512-0BCw1xOLu34bnIQtRKqXQ6Qax3tJmUJpzVgprRtp292WSjTeqBsTN9vKRqeSsswoWxkddBXMH3o5Igm3MRRztg==
   dependencies:
     "@mdx-js/loader" "^1.5.3"
     "@mdx-js/mdx" "^1.5.3"
@@ -1174,10 +1174,10 @@
     remark-unwrap-images "^1.0.0"
     theme-ui "^0.3.0-alpha.6"
 
-"@mdx-deck/themes@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@mdx-deck/themes/-/themes-4.0.0.tgz#446023ab407c2457294a2ecca31305b5c9b54f7b"
-  integrity sha512-nnMD1qmE+RDkTNhVgtF+Uc0dsDyUZ9Wxae9KaV17qWYFhuGdEzReGX9tgoU6Kk9Wzeb3WEaISxFAuufH69uTiQ==
+"@mdx-deck/themes@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@mdx-deck/themes/-/themes-4.1.0.tgz#351b3f3800255172cbba8d297b1ba59f33f111a1"
+  integrity sha512-hDwtKioAriTGfhif7V+eq2fMZCUpqptDGTijF2hLs5w6OUWXjSj7/aq+XI3zK4DAXjg260QeW0TIDJnv06uNSA==
   dependencies:
     lodash.merge "^4.6.1"
     react-syntax-highlighter "^12.2.1"
@@ -7744,13 +7744,13 @@ mdx-deck-live-code@^1.0.1:
   dependencies:
     react-live "^1.11.0"
 
-mdx-deck@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/mdx-deck/-/mdx-deck-4.0.0.tgz#4a9ffe0c5cf34067b2775301c8449f2cc0c9bd01"
-  integrity sha512-AzHJa7kLWbpIe3/HIhY+Yl+lil3GrX+DhnEj99k5oYCKxnuUFSmZEQbfPlZknBI5QSbOc6UMixDTwL7wLuStvw==
+mdx-deck@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/mdx-deck/-/mdx-deck-4.1.0.tgz#398d132a43d33d066ecf392f9d13b2a0cba2b4de"
+  integrity sha512-gdoAiPzdFvQVY1gKnNv6405ivDZBVyjtwMh8ooqEgMKDuHSpTAH0aU+YY4DNExc3hZZ1d6lqt1dZrHySrCVsbw==
   dependencies:
-    "@mdx-deck/gatsby-plugin" "^4.0.0"
-    "@mdx-deck/themes" "^4.0.0"
+    "@mdx-deck/gatsby-plugin" "^4.1.0"
+    "@mdx-deck/themes" "^4.1.0"
     chalk "^3.0.0"
     execa "^4.0.0"
     fs-extra "^8.1.0"
