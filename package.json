@@ -46,6 +46,6 @@
     "mdx-deck-code-surfer": "^0.5.5",
     "mdx-deck-live-code": "^1.0.1",
     "prettier": "^2.1.2",
-    "raw-loader": "^4.0.1"
+    "raw-loader": "^4.0.2"
   }
 }
