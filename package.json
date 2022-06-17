@@ -40,7 +40,7 @@
   "homepage": "https://github.com/jgcmarins/react-native-cryptocurrency#readme",
   "devDependencies": {
     "gh-pages": "^3.2.3",
-    "lint-staged": "^11.1.2",
+    "lint-staged": "^13.0.2",
     "mdx-code": "^2.0.0",
     "mdx-deck": "^4.1.1",
     "mdx-deck-code-surfer": "^0.5.5",
